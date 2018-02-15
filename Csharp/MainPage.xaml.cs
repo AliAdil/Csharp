@@ -63,17 +63,35 @@ namespace Csharp
 
         private void button4_Click(object sender, RoutedEventArgs e)
         {
-            int count = 0;
-            while (count < 10)
-            {
-                count = count + 1;
-            }
-            for (int i = 0; i < 5; i++)
-            {
-                count = count - 1; 
+            //    int count = 0;
+            //    while (count < 10)
+            //    {
+            //        count = count + 1;
+            //    }
+            //    for (int i = 0; i < 5; i++)
+            //    {
+            //        count = count - 1; 
 
+            //    }
+            //    myLabel.Text = "The Answer is " + count;
+            //}
+
+            //int count = 5;
+            //while (count > 0)
+            //{
+
+            //    count = count * 3;
+            //    count = count * -1;
+            //}
+            int j = 2;
+            for (int i = 1; i < 100;  i = i * 2)
+            {
+                j = j - 1;
+                while (j < 25)
+                {
+                    j = j + 5; 
+                }
             }
-            myLabel.Text = "The Answer is " + count;
         }
 
         
