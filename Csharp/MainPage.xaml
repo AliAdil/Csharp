@@ -8,8 +8,19 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <TextBlock HorizontalAlignment="Left" Margin="647,229,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="644,339,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.391,0.367" Click="Button_Click"/>
-
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Button x:Name="button1" Content="Show a message" HorizontalAlignment="Center" VerticalAlignment="Center" Click="button1_Click"/>
+        <Button x:Name="button3" Content="Another contional test" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" Click="button3_Click"/>
+        <Button x:Name="button2" Content="If/else" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Click="button2_Click"/>
+        <Button x:Name="button4" Content="A Loop" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" Click="button4_Click"/>
+        <TextBlock x:Name="myLabel" HorizontalAlignment="Center" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Center" Style="{StaticResource BodyTextBlockStyle}" Grid.ColumnSpan="2"/>
     </Grid>
 </Page>
