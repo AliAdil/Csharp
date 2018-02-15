@@ -51,6 +51,17 @@ namespace Csharp
             bool anotherBool = true;
             yesNo = !anotherBool;
 
+            int someValue = 24;
+            string message = "";
+            if (someValue == 24)
+            {
+                message = "The Value is 24";
+            }
+            else
+            {
+                message = "The Value Wasnt 24";
+            }
+
         }
     }
 }
