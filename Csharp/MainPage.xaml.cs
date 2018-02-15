@@ -26,5 +26,31 @@ namespace Csharp
         {
             this.InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            int number = 15;
+            number = number + 10;
+            number = 36 * 15;
+            number = 12 - (42 / 7);
+            number += 10;
+            number *= 3;
+            number = 71 / 3;
+
+            int count = 0;
+            count++;
+            count--;
+
+            string result = "hello";
+            result += " again " + result;
+           // output.Test = result;
+            result = "the value is: " + count;
+            result = "";
+
+            bool yesNo = false;
+            bool anotherBool = true;
+            yesNo = !anotherBool;
+
+        }
     }
 }
