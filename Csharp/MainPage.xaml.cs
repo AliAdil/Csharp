@@ -83,15 +83,29 @@ namespace Csharp
             //    count = count * 3;
             //    count = count * -1;
             //}
-            int j = 2;
-            for (int i = 1; i < 100;  i = i * 2)
+            //int j = 2;
+            //for (int i = 1; i < 100;  i = i * 2)
+            //{
+            //    j = j - 1;
+            //    while (j < 25)
+            //    {
+            //        j = j + 5; 
+            //    }
+            //}
+
+            int p = 2;
+
+            for (int q = 2; q < 32; q= q *2)
             {
-                j = j - 1;
-                while (j < 25)
+                while (p<q)
                 {
-                    j = j + 5; 
+                    p = p * 2;
                 }
+
+                q = p - q;
             }
+
+
         }
 
         
