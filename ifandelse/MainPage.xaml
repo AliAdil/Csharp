@@ -8,6 +8,21 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <CheckBox x:Name="enableCheckbox" Content="Enable Label Changing" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Button x:Name="changeText" Content="Change the label if checked" HorizontalAlignment="Center" VerticalAlignment="Center" Click="changeText_Click"/>
+        <TextBlock x:Name="labelToChange" HorizontalAlignment="Center" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Center" FontSize="24">
+        	<Run Text="User clicks the button but the box is not checked "/>
+        	<LineBreak/>
+        	<Run/>
+        </TextBlock>
 
     </Grid>
 </Page>
