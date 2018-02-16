@@ -12,7 +12,7 @@ namespace WindowsForm
         /// The main entry point for the application.
         /// </summary>
         [STAThread]
-        static void Main()
+        static void NotMain()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
