@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Csharp", "Csharp\Csharp.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ifandelse", "ifandelse\ifandelse.csproj", "{32231374-1EDB-45DD-A1A6-87BF972E3DC7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsForm", "WindowsForm\WindowsForm.csproj", "{1044CAB0-DF2B-4526-A721-3308486B9765}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,6 +69,16 @@ Global
 		{32231374-1EDB-45DD-A1A6-87BF972E3DC7}.Release|x86.ActiveCfg = Release|x86
 		{32231374-1EDB-45DD-A1A6-87BF972E3DC7}.Release|x86.Build.0 = Release|x86
 		{32231374-1EDB-45DD-A1A6-87BF972E3DC7}.Release|x86.Deploy.0 = Release|x86
+		{1044CAB0-DF2B-4526-A721-3308486B9765}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1044CAB0-DF2B-4526-A721-3308486B9765}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1044CAB0-DF2B-4526-A721-3308486B9765}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{1044CAB0-DF2B-4526-A721-3308486B9765}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{1044CAB0-DF2B-4526-A721-3308486B9765}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1044CAB0-DF2B-4526-A721-3308486B9765}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1044CAB0-DF2B-4526-A721-3308486B9765}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1044CAB0-DF2B-4526-A721-3308486B9765}.Release|ARM.ActiveCfg = Release|Any CPU
+		{1044CAB0-DF2B-4526-A721-3308486B9765}.Release|x64.ActiveCfg = Release|Any CPU
+		{1044CAB0-DF2B-4526-A721-3308486B9765}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
