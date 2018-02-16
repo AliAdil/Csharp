@@ -93,18 +93,31 @@ namespace Csharp
             //    }
             //}
 
-            int p = 2;
+            //int p = 2;
 
-            for (int q = 2; q < 32; q= q *2)
-            {
-                while (p<q)
-                {
-                    p = p * 2;
-                }
+            //for (int q = 2; q < 32; q= q *2)
+            //{
+            //    while (p<q)
+            //    {
+            //        p = p * 2;
+            //    }
 
-                q = p - q;
-            }
+            //    q = p - q;
+            //}
+            // infinite loop 
+            //while (true)
+            //{
+            //    int i = 1; 
+            //}
+            // infinite looop 
 
+            //int i = 0;
+            //int count = 2;
+            //while (i == 0)
+            //{
+            //    count = count * 3;
+            //    count = count * -1; 
+            //}
 
         }
 
