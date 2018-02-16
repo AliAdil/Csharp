@@ -119,6 +119,42 @@ namespace Csharp
             //    count = count * -1; 
             //}
 
+            int x = 3 ; 
+            string result = "";
+
+            while (x > 0)
+            {
+                if (x > 2)
+                {
+                    result = result + "a";
+                }
+                x = x - 1;
+                result = result + "-";
+
+                if (x == 2)
+                {
+                    result = result + "b c";
+                }
+
+
+                if (x == 1)
+                {
+                    result = result + "d";
+                    x = x - 1;
+                }
+            }
+           
+
+            
+
+
+            myLabel.Text = result;
+
+
+
+            
+
+
         }
 
         
