@@ -39,5 +39,10 @@ namespace WindowsForm
                 labelToChange.TextAlign = ContentAlignment.MiddleCenter;
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
