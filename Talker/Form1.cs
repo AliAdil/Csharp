@@ -19,8 +19,8 @@ namespace Talker
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Talker talkerWho = new Talker();
-            int len = talkerWho.blahblahblah(textBox1.Text, (int)numericUpDown1.Value);
+            //Talker talkerWho = new Talker();
+            int len = Talker.blahblahblah(textBox1.Text, (int)numericUpDown1.Value);
             MessageBox.Show("The message length is " + len);
         }
     }

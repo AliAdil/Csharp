@@ -9,7 +9,7 @@ namespace Talker
 {
     class Talker
     {
-        public  int blahblahblah(string thingToSay, int numberOfTimes)
+        public static  int blahblahblah(string thingToSay, int numberOfTimes)
         {
             string finalString = "";
             for (int count = 0; count < numberOfTimes; count++)
