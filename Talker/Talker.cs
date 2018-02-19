@@ -9,7 +9,7 @@ namespace Talker
 {
     class Talker
     {
-        public static int blahblahblah(string thingToSay, int numberOfTimes)
+        public  int blahblahblah(string thingToSay, int numberOfTimes)
         {
             string finalString = "";
             for (int count = 0; count < numberOfTimes; count++)
@@ -18,6 +18,11 @@ namespace Talker
             }
             MessageBox.Show(finalString);
             return finalString.Length;
+
+           
         }
+        
+        
+
     }
 }
