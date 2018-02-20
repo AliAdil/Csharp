@@ -11,7 +11,7 @@ namespace WindowsForm
     {
         public static void Main()
         {
-            Application.Run(new FlashyThing());
+            Application.Run(new Wallet());
         }
     }
 }

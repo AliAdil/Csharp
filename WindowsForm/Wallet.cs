@@ -27,6 +27,34 @@ namespace WindowsForm
         public Wallet()
         {
             InitializeComponent();
+            joe = new Guy();
+            joe.Name = "Joe";
+            joe.cash = 50;
+
+            bob = new Guy();
+            bob.Name = "Bob";
+            bob.cash = 100;
+
+            UpdateForm();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (bank >= 10)
+            {
+                bank -= joe.ReceiveCash(10);
+                UpdateForm();
+            }
+            else
+            {
+                MessageBox.Show("The bank is out of money.");
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            bank += bob.GiveCash(5);
+            UpdateForm();
         }
 
         
