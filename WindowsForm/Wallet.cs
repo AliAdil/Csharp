@@ -12,9 +12,23 @@ namespace WindowsForm
 {
     public partial class Wallet : Form
     {
+        Guy joe;
+        Guy bob;
+        int bank = 100;
+
+        public void UpdateForm()
+        {
+            joesCashLabel.Text = joe.Name + " has $" + joe.cash;
+            bobsCashLabel.Text = bob.Name + " has $" + bob.cash;
+            bankCashLabel.Text = "The bank has $" + bank;
+        }
+
+
         public Wallet()
         {
             InitializeComponent();
         }
+
+        
     }
 }

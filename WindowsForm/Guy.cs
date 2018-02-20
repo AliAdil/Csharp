@@ -24,5 +24,20 @@ namespace WindowsForm
                 return 0;
             }
         }
+
+        public int ReceiveCash(int amount)
+        {
+            if (amount > 0)
+            {
+                cash += amount;
+                return amount;
+            }
+            else
+            {
+                MessageBox.Show(amount + " isn't an amount i will take", Name + " says..");
+                return 0;
+
+            }
+        }
     }
 }
