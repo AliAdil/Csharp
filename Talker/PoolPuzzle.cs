@@ -22,13 +22,14 @@ namespace Talker
         {
             string result = "";
             Echo e1 = new Echo();
-            Echo e2 = e1;
+            Echo e2 = new Echo();
+            
             
 
             int x = 0 ;
-            while (x < 4){
+            while (x <4){
                 result = result + e1.Hello()+ "\n";
-
+                e2 = e1;
                 if(x>0){
                     e2.count = e2.count + 1;
                 }
