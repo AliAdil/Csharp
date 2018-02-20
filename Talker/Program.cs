@@ -16,7 +16,7 @@ namespace Talker
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new PoolPuzzle());
+            Application.Run(new Calculator());
         }
     }
 }
