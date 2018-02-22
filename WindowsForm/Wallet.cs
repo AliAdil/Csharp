@@ -14,6 +14,7 @@ namespace WindowsForm
     {
         Guy joe;
         Guy bob;
+        Guy ali;
         int bank = 100;
 
         public void UpdateForm()
@@ -34,6 +35,10 @@ namespace WindowsForm
             bob = new Guy();
             bob.Name = "Bob";
             bob.cash = 100;
+
+            ali = new Guy();
+            ali.Name = "Ali";
+            ali.cash = 900;
 
             UpdateForm();
         }
