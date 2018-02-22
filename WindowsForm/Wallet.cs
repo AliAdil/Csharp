@@ -15,6 +15,7 @@ namespace WindowsForm
         Guy joe;
         Guy bob;
         Guy ali;
+        
         int bank = 100;
 
         public void UpdateForm()
@@ -64,8 +65,20 @@ namespace WindowsForm
 
         private void button3_Click(object sender, EventArgs e)
         {
+
+            if (bank >= 1)
+            {
+                bank -= ali.ReceiveCash(30);
+               
+                UpdateForm();
+            }
+            else
+            {
+                MessageBox.Show("The bank is out of money.");
+            }
             bank += bob.GiveCash(30);
             bank += joe.GiveCash(30);
+            
             UpdateForm();
         }
 
