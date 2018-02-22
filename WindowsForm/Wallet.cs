@@ -30,18 +30,14 @@ namespace WindowsForm
         public Wallet()
         {
             InitializeComponent();
-            joe = new Guy();
-            joe.Name = "Joe";
-            joe.cash = 50;
+            //joe = new Guy();
+            //joe.Name = "Joe";
+            //joe.cash = 50;
+            //Object Initializer
 
-            bob = new Guy();
-            bob.Name = "Bob";
-            bob.cash = 100;
-
-            ali = new Guy();
-            ali.Name = "Ali";
-            ali.cash = 0;
-
+            joe = new Guy() { cash = 50, Name = "JOE" };
+            bob = new Guy() { cash = 100, Name = "Bob" };
+            ali = new Guy() { cash = 0, Name = "Ali" };
             UpdateForm();
         }
 
