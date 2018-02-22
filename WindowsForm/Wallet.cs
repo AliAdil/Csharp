@@ -67,13 +67,34 @@ namespace WindowsForm
         private void button3_Click(object sender, EventArgs e)
         {
 
-            if (bank >= 30  || bank >= 1)
+            if (bank >= 30 )
             {
                 bank -= ali.ReceiveCash(30);
                
                 UpdateForm();
             }
 
+            else if (bank >= 10)
+            {
+                bank -= ali.ReceiveCash(10);
+
+                UpdateForm();
+            }
+
+
+            else if (bank >= 5)
+            {
+                bank -= ali.ReceiveCash(5);
+
+                UpdateForm();
+            }
+
+            else if (bank >= 1)
+            {
+                bank -= ali.ReceiveCash(1);
+
+                UpdateForm();
+            }
             
             else
             {
