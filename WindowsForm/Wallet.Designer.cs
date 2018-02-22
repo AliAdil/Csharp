@@ -88,12 +88,11 @@
             // 
             // button3
             // 
-            this.button3.AutoSize = true;
-            this.button3.Location = new System.Drawing.Point(60, 209);
+            this.button3.Location = new System.Drawing.Point(12, 206);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(174, 23);
+            this.button3.Size = new System.Drawing.Size(260, 43);
             this.button3.TabIndex = 5;
-            this.button3.Text = "Take $30 from Both Bob and Joe";
+            this.button3.Text = "Take $30 from Both Bob and Joe and give it to bank and take $30 from bank";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
