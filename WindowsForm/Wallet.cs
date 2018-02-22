@@ -20,6 +20,7 @@ namespace WindowsForm
 
         public void UpdateForm()
         {
+            aliCashLabel.Text = ali.Name + " has $" + ali.cash + " take cash from bank";
             joesCashLabel.Text = joe.Name + " has $" + joe.cash;
             bobsCashLabel.Text = bob.Name + " has $" + bob.cash;
             bankCashLabel.Text = "The bank has $" + bank;
