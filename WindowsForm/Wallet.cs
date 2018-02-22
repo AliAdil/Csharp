@@ -62,6 +62,13 @@ namespace WindowsForm
             UpdateForm();
         }
 
+        private void button3_Click(object sender, EventArgs e)
+        {
+            bank += bob.GiveCash(30);
+            bank += joe.GiveCash(30);
+            UpdateForm();
+        }
+
         
     }
 }
