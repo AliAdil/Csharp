@@ -35,7 +35,6 @@
             this.bankCashLabel = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.aliCashLabel = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -106,21 +105,11 @@
             this.aliCashLabel.TabIndex = 6;
             this.aliCashLabel.Text = "aliCashLabel";
             // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(179, 29);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 7;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
             // Wallet
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
-            this.Controls.Add(this.button4);
             this.Controls.Add(this.aliCashLabel);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.bankCashLabel);
@@ -144,6 +133,5 @@
         private System.Windows.Forms.Label bankCashLabel;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label aliCashLabel;
-        private System.Windows.Forms.Button button4;
     }
 }
