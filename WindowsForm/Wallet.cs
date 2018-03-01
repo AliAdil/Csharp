@@ -15,6 +15,7 @@ namespace WindowsForm
         Guy joe;
         Guy bob;
         Guy ali;
+       
         
         int bank = 100;
 
@@ -35,6 +36,8 @@ namespace WindowsForm
             joe = new Guy() { cash = 50, Name = "JOE" };
             bob = new Guy() { cash = 100, Name = "Bob" };
             ali = new Guy() { cash = 0, Name = "Ali" };
+            
+
             UpdateForm();
         }
 
@@ -107,6 +110,28 @@ namespace WindowsForm
             UpdateForm();
         }
 
-        
+        private void joeGivesToBob_Click(object sender, EventArgs e)
+        {
+            if (joe.cash >= 10)
+            {
+                bob.cash += joe.GiveCash(10);
+            }
+            UpdateForm();
+        }
+
+        private void bobGivesToJoe_Click(object sender, EventArgs e)
+        {
+            if (bob.cash >= 5)
+            {
+                joe.cash += bob.GiveCash(5);
+            }
+            UpdateForm();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            bank += ali.GiveCash(ali.cash);
+            UpdateForm();
+        }
     }
 }
