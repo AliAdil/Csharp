@@ -114,7 +114,8 @@ namespace WindowsForm
         {
             if (joe.cash >= 10)
             {
-                bob.cash += joe.GiveCash(10);
+                //bob.cash += joe.GiveCash(10);
+                bob.ReceiveCash(joe.GiveCash(10));
             }
             UpdateForm();
         }
@@ -123,14 +124,15 @@ namespace WindowsForm
         {
             if (bob.cash >= 5)
             {
-                joe.cash += bob.GiveCash(5);
+                //joe.cash += bob.GiveCash(5);
+                joe.ReceiveCash(bob.GiveCash(5));
             }
             UpdateForm();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            bank += ali.GiveCash(ali.cash);
+            //bank += ali.GiveCash(ali.cash);
             UpdateForm();
         }
     }
