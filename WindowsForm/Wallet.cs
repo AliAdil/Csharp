@@ -12,7 +12,7 @@ namespace WindowsForm
 {
     public partial class Wallet : Form
     {
-        Guy joe;
+       Guy joe;
         Guy bob;
         Guy ali;
        
@@ -132,7 +132,7 @@ namespace WindowsForm
 
         private void button4_Click(object sender, EventArgs e)
         {
-            //bank += ali.GiveCash(ali.cash);
+            bank += ali.GiveCash(ali.cash);
             UpdateForm();
         }
     }
