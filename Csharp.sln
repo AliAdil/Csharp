@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Csharp", "Csharp\Csharp.csproj", "{4ECC626C-1817-469A-94E6-FFEE7806B7EC}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsForm", "WindowsForm\WindowsForm.csproj", "{1044CAB0-DF2B-4526-A721-3308486B9765}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Talker", "Talker\Talker.csproj", "{9D135C6E-31F8-4A59-9F34-1DE5BF505B90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypesAndRefrences", "TypesAndRefrences\TypesAndRefrences.csproj", "{46347624-0FBC-4A33-B173-668FBEC2C696}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -91,8 +93,27 @@ Global
 		{9D135C6E-31F8-4A59-9F34-1DE5BF505B90}.Release|ARM.ActiveCfg = Release|Any CPU
 		{9D135C6E-31F8-4A59-9F34-1DE5BF505B90}.Release|x64.ActiveCfg = Release|Any CPU
 		{9D135C6E-31F8-4A59-9F34-1DE5BF505B90}.Release|x86.ActiveCfg = Release|Any CPU
+		{46347624-0FBC-4A33-B173-668FBEC2C696}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46347624-0FBC-4A33-B173-668FBEC2C696}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46347624-0FBC-4A33-B173-668FBEC2C696}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{46347624-0FBC-4A33-B173-668FBEC2C696}.Debug|ARM.Build.0 = Debug|Any CPU
+		{46347624-0FBC-4A33-B173-668FBEC2C696}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{46347624-0FBC-4A33-B173-668FBEC2C696}.Debug|x64.Build.0 = Debug|Any CPU
+		{46347624-0FBC-4A33-B173-668FBEC2C696}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{46347624-0FBC-4A33-B173-668FBEC2C696}.Debug|x86.Build.0 = Debug|Any CPU
+		{46347624-0FBC-4A33-B173-668FBEC2C696}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46347624-0FBC-4A33-B173-668FBEC2C696}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46347624-0FBC-4A33-B173-668FBEC2C696}.Release|ARM.ActiveCfg = Release|Any CPU
+		{46347624-0FBC-4A33-B173-668FBEC2C696}.Release|ARM.Build.0 = Release|Any CPU
+		{46347624-0FBC-4A33-B173-668FBEC2C696}.Release|x64.ActiveCfg = Release|Any CPU
+		{46347624-0FBC-4A33-B173-668FBEC2C696}.Release|x64.Build.0 = Release|Any CPU
+		{46347624-0FBC-4A33-B173-668FBEC2C696}.Release|x86.ActiveCfg = Release|Any CPU
+		{46347624-0FBC-4A33-B173-668FBEC2C696}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5DCB1F1E-3784-4C96-8DB0-3223BDF18B0D}
 	EndGlobalSection
 EndGlobal
