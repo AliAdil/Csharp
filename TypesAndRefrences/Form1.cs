@@ -19,9 +19,47 @@ namespace TypesAndRefrences
 
         private void button1_Click(object sender, EventArgs e)
         {
-            decimal myDecimalValue = 10;
-            int myIntValue = (int)myDecimalValue;
-            MessageBox.Show("The myIntValue is" +  myIntValue);
+            //decimal myDecimalValue = 10;
+            //int myIntValue = (int)myDecimalValue;
+            int myInt = 10;
+
+            byte myByte = (byte)myInt;
+
+            double myDouble = (double)myByte;
+            
+            //unable to convert
+            //bool myBool = (bool) myDouble;
+           
+            string myString = "false";
+
+            //unable to convert
+            //myBool = (bool)myString;
+
+            //unable to convert
+            //myString = (string)myInt;
+
+            myString = myInt.ToString();
+
+            //unable to convert
+            //myBool = (bool)myByte;
+
+            //unbale to convert
+            //myByte = (byte)myBool;
+
+            short myShort = (short)myInt;
+
+            //unable to convert
+            char myChar = 'x';
+            //myString = (string) myChar;
+
+            long myLong = (long)myInt;
+
+            decimal myDecimal = (long)myLong;
+
+            myString = myString + myInt + myByte + myDouble + myChar; 
+            MessageBox.Show("The value is " +myString);
+
+
             
         }
 
