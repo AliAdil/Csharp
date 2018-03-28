@@ -22,6 +22,8 @@ namespace TypesAndRefrences
             decimal myDecimalValue = 10;
             int myIntValue = (int)myDecimalValue;
             MessageBox.Show("The myIntValue is" +  myIntValue);
+            //test 
         }
+
     }
 }
