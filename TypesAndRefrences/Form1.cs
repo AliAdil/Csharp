@@ -56,9 +56,19 @@ namespace TypesAndRefrences
 
             decimal myDecimal = (long)myLong;
 
-            myString = myString + myInt + myByte + myDouble + myChar; 
-            MessageBox.Show("The value is " +myString);
+            int myInt2 = 36;
+            float myFloat = 16.0f;
+            myFloat = myInt2 * myFloat; 
 
+            myString = myString + myInt + myByte + myDouble + myChar; 
+            MessageBox.Show("The value is " +myFloat);
+
+
+            long l = 139401930;
+            short s = 516;
+            double d = l - s;
+            d = d / 123.456;
+            MessageBox.Show("The Answer is " + d);
 
             
         }
