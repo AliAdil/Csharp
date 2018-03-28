@@ -70,6 +70,11 @@ namespace TypesAndRefrences
             d = d / 123.456;
             MessageBox.Show("The Answer is " + d);
 
+
+            long x = 1340130;
+            MessageBox.Show("The answer is " + x);
+            MessageBox.Show(x.ToString());
+
             
         }
 
